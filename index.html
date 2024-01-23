@@ -31,7 +31,7 @@
 </head>
 
 <body class="font-manrope">
-  <header class="mx-10 mt-10 mb-10">
+  <header class="container mx-auto">
     <div class="navbar bg-amber-100">
       <div class="navbar-start">
         <div class="dropdown">
@@ -78,7 +78,7 @@
         <div id="slide1"
           class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(211,211,211,0.5),rgba(0,0,0,0.5)),url('./images/1.png')] h-[100vh] flex items-center justify-center">
           <div class="absolute text-white font-bold bg-[#131318] px-6 py-8 h-1/3 w-1/2 bottom-10 right-20">
-            <h2 class="text-2xl flex gap-8">Meet all the heroes from the field</h2>
+            <h2 class="text-2xl">Meet all the heroes from the field</h2>
             <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit
               nullam proin.</p>
           </div>
@@ -90,7 +90,7 @@
         <div id="slide2"
           class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(211,211,211,0.5),rgba(0,0,0,0.5)),url('./images/banner2.png')] h-[100vh] flex items-center justify-center">
           <div class="absolute text-white font-bold bg-[#131318] px-8 py-8 h-1/3 w-1/2 bottom-10 right-0">
-            <h2 class="text-2xl flex">Meet all the heroes from the field</h2>
+            <h2 class="text-2xl">Meet all the heroes from the field</h2>
             <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit
               nullam proin.</p>
           </div>
@@ -572,11 +572,90 @@
         </div>
       </div>
     </section>
-    <!-- Get in touch start -->
 
-    <section>
+    <!-- get in touch section start -->
+    <section class="mx-14">
+      <hr class="divide-y divide-dashed hover:divide-solid mb-6">
+      <div class="text-center space-y-5">
+        <h3 class="text-3xl font-extrabold">
+          Get in Touch
+        </h3>
+        <p>
+          A Contact Us page isn't just another page on your website. In fact, it is one of your most valuable pages
+          <br>
+          and you should treat it as such.
+        </p>
+      </div>
+      <hr class="divide-y divide-dashed hover:divide-solid mt-6">
 
+      <div class="flex gap-8 flex-col lg:flex-row py-6">
+        <!-- get in touch left side start -->
+        <div class="bg-slate-50 space-y-4 p-10 rounded-xl w-96">
+          <div class="py-5 pl-5 pr-10 space-y-4 bg-amber-50 rounded-xl">
+            <img src="./Images/Group 1171275317.png" alt="">
+            <p class="text-slate-700">Phone Number:</p>
+            <h5 class="text-black font-bold">(+90) 671290432</h5>
+          </div>
+          <div class="py-5 pl-5 pr-10 space-y-4 bg-green-50 rounded-xl">
+            <img src="./Images/Group 1171275318.png" alt="">
+            <p class="text-slate-700">Phone Number:</p>
+            <h5 class="text-black font-bold">(+90) 671290432</h5>
+          </div>
+          <div class="py-5 pl-5 pr-10 space-y-4 bg-violet-50 rounded-xl">
+            <img src="./Images/Group 1171275321.png" alt="">
+            <p class="text-slate-700">Phone Number:</p>
+            <h5 class="text-black font-bold">(+90) 671290432</h5>
+          </div>
+        </div>
+        <!-- get in touch left side end -->
+        <!-- get in touch right side start -->
+        <div class="flex-1 grid gap-2 grid-cols-1 lg:grid-cols-2 pb-4">
+          <div>
+            <label class="form-control">
+              <div class="label">
+                <span class="label-text font-bold text-xl">Your name</span>
+              </div>
+              <input type="text" placeholder="Enter Your Full Name" class="input input-bordered w-full max-w-xs" />
+            </label>
+          </div>
+          <div>
+            <label class="form-control">
+              <div class="label">
+                <span class="label-text font-bold text-xl">Your name</span>
+              </div>
+              <input type="text" placeholder="Enter Your Full Name" class="input input-bordered w-full max-w-xs" />
+            </label>
+          </div>
+          <div>
+            <label class="form-control">
+              <div class="label">
+                <span class="label-text font-bold text-xl">Your name</span>
+              </div>
+              <input type="text" placeholder="Enter Your Full Name" class="input input-bordered w-full max-w-xs" />
+            </label>
+          </div>
+          <div>
+            <label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text font-bold text-xl">Your name</span>
+              </div>
+              <input type="text" placeholder="Enter Your Full Name" class="input input-bordered w-full max-w-xs" />
+            </label>
+          </div>
+          <div class="lg:row-span-10 lg:col-span-2">
+            <label class="form-control">
+              <div class="label">
+                <span class="label-text font-bold text-xl">Message</span>
+              </div>
+              <textarea class="textarea textarea-bordered h-60" placeholder="Write your message"></textarea>
+            </label>
+          </div>
+          <button class="btn btn-error lg:col-span-2 text-white font-semibold text-xl">Send Message</button>
+        </div>
+        <!-- get in touch right side end -->
+      </div>
     </section>
+    <!-- get in touch section end -->
 
     <!-- Social Media start -->
 
@@ -592,9 +671,10 @@
   </main>
 
   <!-- Footer part start -->
+  <!-- px-4 lg:px-48 py-10 bg-[#131318] text-white flex gap-20 justify-between -->
 
-  <footer class="px-4 lg:px-48 py-10 bg-[#131318] text-white flex justify-between">
-    <div class=" footer">
+  <footer class="container mx-auto bg-[#131318] text-white flex justify-between px-4 py-10 pl-20">
+    <div class="footer">
       <nav>
         <header class="footer-title">Get In Touch</header>
         <a class="link link-hover w-60">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor.
@@ -604,7 +684,7 @@
         <a class="link link-hover">(+62) 123-321-543</a>
       </nav>
 
-      <div class="flex justify-around  gap-8 sm:flex sm:items-center">
+      <div class="flex gap-20 sm:flex sm:items-center justify-center">
         <nav>
           <header class="footer-title">Company</header>
           <div class="flex flex-row justify-center ">
@@ -618,7 +698,7 @@
           </div>
         </nav>
         <nav>
-          <header class="footer-title">Support</header>
+          <header class="footer-title lg:-mt-10">Support</header>
           <ul>
             <li class="link link-hover">Terms of use</li>
             <li class="link link-hover">Privacy policy</li>
